@@ -1,0 +1,75 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    background-color: #e3f2fd;
+    padding: 10px;
+}
+
+/* Navigation */
+
+nav {
+    background-color: black;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* Sections */
+
+section {
+    padding: 15px;
+}
+
+h2 {
+    color: #123456;
+}
+
+/* Footer */
+
+footer {
+    background-color: navy;
+    color: white;
+    padding: 15px;
+}
+
+/* Animation */
+
+section {
+    animation: fade 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+}
+```
